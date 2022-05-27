@@ -3,6 +3,8 @@
 </script>
 
 <script>
+	import { page } from '$app/stores';
+
 	import Counter from '$lib/Counter.svelte';
 </script>
 
@@ -13,12 +15,7 @@
 
 <section>
 	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
+		<div class="welcome">Current Page {$page.url.pathname}</div>
 
 		to your new<br />SvelteKit app
 	</h1>
