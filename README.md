@@ -1,3 +1,3 @@
 # sveltejs-kit-template-default-qqbupz
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/sveltejs-kit-template-default-qqbupz)
+[View on Vercel](https://svelte-ssr-pathname-bug.vercel.app)
